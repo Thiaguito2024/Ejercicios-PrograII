@@ -1,0 +1,1 @@
+trabajointegradorlistas.cadenaTiendas
