@@ -1,7 +1,6 @@
 package trabajointegradorlistas;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class cadenaTiendas {
     
