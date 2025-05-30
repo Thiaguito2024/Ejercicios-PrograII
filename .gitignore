@@ -55,6 +55,7 @@
 /GestionInventarios/nbproject/private/
 /GestionInventarios/dist/
 /GestionInventarios/build/
+<<<<<<< HEAD
 /EmpresaLogistica/nbproject/private/
 /EmpresaLogistica/build/
 /TrabajoIntegradorInterfaces/nbproject/private/
@@ -62,3 +63,5 @@
 /Interfaces/TrabajoIntegradorInterfaces/build/
 /Interfaces/TrabajoIntegradorInterfaces/nbproject/private/
 /TrabajoIntegradorInterfaces/dist/
+=======
+>>>>>>> 04a5169ea896071f075ae2ff9900bee14d968e1d
