@@ -15,11 +15,12 @@ public class Main {
         // PUNTO 1
         System.out.println("-------------- PUNTO 1 ---------------------");
         List<Producto> electronicos = almacen.filtrar(p -> p.getTipo() == Tipoproducto.ELECTRONICO);
-        System.out.println("LISTA PRODUCTOS ELECTRONICIOS: \n" + electronicos); 
+        System.out.println("LISTA PRODUCTOS ELECTRONICIOS: "); 
+        mostrarLista(electronicos);
         
         List<Producto> economicos = almacen.filtrar(p -> p.getPrecio() < 2000);
-        System.out.println("LISTA PRODUCTOS ECONOMICOS: \n" + economicos);
-        
+        System.out.println("LISTA PRODUCTOS ECONOMICOS: ");
+        mostrarLista(economicos);
         // PUNTO 2 
         System.out.println("-------------- PUNTO 2 ---------------------");
         almacen.paraCadaElemento(p -> {
@@ -30,7 +31,13 @@ public class Main {
         // PUNTO 3
         System.out.println("-------------- PUNTO 3 ---------------------");
         List<String> marcas = almacen.transformar(p -> p.getMarca());
-        System.out.println(marcas);
+        mostrarLista(marcas);
         
     }
+    
+    public static void mostrarLista(List<?> lista){
+        for (Object o : lista) {
+            System.out.println(o); 
+        } 
+    } 
 }    
