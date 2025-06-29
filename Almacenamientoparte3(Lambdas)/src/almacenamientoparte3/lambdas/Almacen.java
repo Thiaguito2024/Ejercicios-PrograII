@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-// ALMACEN PARTE 2: AGREGANDO ORDENAMIENTO AL ALMACEN 
+// ALMACEN PARTE 3: ALMACEN CON LAMBDAS
 public class Almacen<T> implements Almacenable<T>{
 
     private List<T> items = new ArrayList<>();

@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-// PARTE 2: ORDENAMIENTO
+// PARTE 3: LAMBDAS
 public interface Almacenable <T> extends Iterable<T>{
     
     void agregar(T item);
