@@ -1,6 +1,6 @@
     package almacenamientoparte3.lambdas;
 
-// PRODUCTO 3: LAMBDAS
+// PRODUCTO 3: LAMBDAS  
 public class Producto implements Comparable<Producto>{
 
     private int id;
